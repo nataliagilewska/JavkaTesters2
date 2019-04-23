@@ -25,7 +25,7 @@ public class Main {
             System.out.print(tab3[i] + " ");
         }
         System.out.println();
-        //zad.4
+        //zad.3
         //int n=123;
         LiczbaPierwsza lp = new LiczbaPierwsza(17);
         boolean wynik = lp.sprawdz();
@@ -35,7 +35,9 @@ public class Main {
         else {
             System.out.println("To nie jest liczba pierwsza");
         }
-
+        //zad.4
+        Choinka choinka = new Choinka(5);
+        choinka.rysuj();
 
 
     }
