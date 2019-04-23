@@ -36,6 +36,23 @@ public class Main {
             System.out.println("To nie jest liczba pierwsza");
         }
         //zad.4
+        int[][] tabliczka=new int[10][10];
+
+        for (int m=0;m<10;m++)
+        {
+            for (int n=0;n<10;n++)
+            {
+                tabliczka[m][n]=(m+1)*(n+1);
+                System.out.print(tabliczka[m][n] + " ");
+            }
+            System.out.println();
+
+        }
+
+
+
+
+        //zad.5
         Choinka choinka = new Choinka(5);
         choinka.rysuj();
 
